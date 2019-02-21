@@ -22,7 +22,8 @@ sh bak.sh
 
 *其他需求请自行修改代码*
 
-**备份过程一般需要20分钟以上，执行到part1时不会显示进度，请耐心等待。**
+
+备份过程一般需要20分钟以上，~~执行到part1时不会显示进度，请耐心等待。~~
 
 ### 改动
 2019-02-21 改动：新增part1创建映像显示进度
@@ -58,7 +59,8 @@ And then,choose1：backup piSD>first USB storage（Default :/dev/sda1）. if you
 
 *other demand please revise the code by yourself*
 
-**The backup process usually takes more than 20 minutes. The progress will not be displayed when the backup process is executed to part1. Please wait patiently.**
+The backup process usually takes more than 20 minutes. ~~The progress will not be displayed when the backup process is executed to part1. Please wait patiently.~~
+
 
 ### UPDATE
 2019-02-21 update：part1 createing img shows progress
