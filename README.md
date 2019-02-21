@@ -4,7 +4,7 @@
 ### 测试
 如果你在使用脚本中成功备份或者失败，请在issues中提出来，方便改进，谢谢
 
-2019-02-21 Debain9 Stretch bakup NTFS u盘 通过
+2019-02-21 Debain9 Stretch 备份至 NTFS u盘 通过
 
 ### 使用方法
 > git clone https://github.com/cuifeiran/pi_bakup.git 
