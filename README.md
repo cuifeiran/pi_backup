@@ -1,4 +1,4 @@
-[👉 README IN English](#pi_bakup)
+[👉 README IN English](#RASPBERRY_BACKUP)
 # 树莓派备份脚本
 一个帮助我们备份树莓派系统的小脚本，适配Ubuntu/Debian https://github.com/cuifeiran/pi_backup
 ### 测试
@@ -38,7 +38,7 @@ sh bak.sh
 
 
 ***
-# pi_bakup
+# RASPBERRY_BACKUP
 help us to backup our piSD or piUSB to UsbSrotage  Adaptation Ubuntu/Debian https://github.com/cuifeiran/pi_backup
 
 ### TEST
