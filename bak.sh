@@ -1,9 +1,14 @@
 #!/bin/sh
 
-echo ================== part 0, install tools ============================
-sudo apt-get -y install rsync dosfstools parted kpartx exfat-fuse
-echo "finshed install tools"
+echo ===== part 0, install tools =====
+echo "If this is first backup,Will install rsync dosfstools parted kpartx exfat-fuse, Y/N?"
+read key
+if [ "$key" = "y" -o "$key" = "Y"]; then
+	sudo apt-get -y install rsync dosfstools parted kpartx exfat-fuse
+	echo "finshed install tools"
+if
 
+echo ===== part 1, choose backup path =====
 #mount USB device
 usbmount=/mnt
 mkdir -p $usbmount
@@ -31,7 +36,7 @@ img=$usbmount/rpi-`date +%Y%m%d-%H%M`.img
 #img=$usbmount/rpi.img
 
 
-echo =================== part 1, create a new blank img ===================
+echo ===== part 2, create a new blank img(will spend 20mins) ======
 # New img file
 #sudo rm $img
 bootsz=`df -P | grep /boot | awk '{print $2}'`
@@ -55,7 +60,7 @@ sudo mkfs.vfat ${device}p1 -n boot
 sudo mkfs.ext4 ${device}p2
 
 
-echo ================ part 2, fill the data to img ====================
+echo ===== part 3, fill the data to img ======
 # mount partitions
 mountb=$usbmount/backup_boot/
 mountr=$usbmount/backup_root/
@@ -128,4 +133,4 @@ sudo kpartx -d $loopdevice
 sudo losetup -d $loopdevice
 sudo umount $usbmount
 rm -rf $mountb $mountr
-echo "==== All done. You can un-plug the backup device"
+echo "==== All done. You can un-plug the backup device ===="
