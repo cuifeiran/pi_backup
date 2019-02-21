@@ -2,9 +2,11 @@
 # 树莓派备份脚本
 一个帮助我们备份树莓派系统的小脚本
 ### 测试
-如果你在使用脚本中成功备份或者失败，请在issues中提出来，方便改进，谢谢
 
 2019-02-21 Debain9 Stretch 备份至 NTFS u盘 通过
+
+如果你在使用脚本中成功备份或者失败，请在issues中提出来，方便改进，谢谢
+
 
 ### 使用方法
 ```sh
@@ -29,7 +31,7 @@ sh bak.sh
 ### 参考： 
 >[conanwhf/RaspberryPi-script](https://github.com/cuifeiran/RaspberryPi-script/blob/master/rpi-backup.sh)
 
-感谢前辈付出！(没有forked的原因是这个脚本可能被我改糟，不想污染master所以新建了一个仓。)
+ - 感谢前辈付出！(没有forked的原因是这个脚本可能被我改糟，不想污染master所以新建了一个仓。)
 
 
 ***
@@ -62,4 +64,4 @@ And then,choose1：backup piSD>first USB storage（Default :/dev/sda1）. if you
 ### REFERENCE RESOURCES： 
 >[conanwhf/RaspberryPi-script](https://github.com/cuifeiran/RaspberryPi-script/blob/master/rpi-backup.sh)
 
-Thank your predecessors for giving! (The reason why there is no forked is that the script may have been worsened by me. I didn't want to pollute the master, so I built a new warehouse. )
+  - Thank your predecessors for giving! (The reason why there is no forked is that the script may have been worsened by me. I didn't want to pollute the master, so I built a new warehouse. )
