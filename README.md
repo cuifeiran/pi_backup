@@ -22,7 +22,7 @@ sh bak.sh
 
 *其他需求请自行修改代码*
 
-
+### 注意
 备份过程一般需要20分钟以上，~~执行到part1时不会显示进度，请耐心等待。~~
 
 ### 改动
@@ -58,7 +58,7 @@ sh bak.sh
 And then,choose1：backup piSD>first USB storage（Default :/dev/sda1）. if your pi system in USB storage,choose2:backup piUSB >second USB storage（Default:/dev/sda2）
 
 *other demand please revise the code by yourself*
-
+### NOTES
 The backup process usually takes more than 20 minutes. ~~The progress will not be displayed when the backup process is executed to part1. Please wait patiently.~~
 
 
