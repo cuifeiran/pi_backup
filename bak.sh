@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo ===== part 0, install tools =====
-echo "If this is first backup,Will install rsync dosfstools parted kpartx exfat-fuse, Y/N?"
+echo "If this is first backup,Will install rsync dosfstools parted kpartx exfat-fuse pv, Y/N?"
 read key
 if [ "$key" = "y" -o "$key" = "Y"]; then
 	sudo apt-get -y install rsync dosfstools parted kpartx exfat-fuse
@@ -42,7 +42,7 @@ echo ===== part 2, create a new blank img(will spend 20mins) ======
 bootsz=`df -P | grep /boot | awk '{print $2}'`
 rootsz=`df -P | grep /dev/root | awk '{print $3}'`
 totalsz=`echo $bootsz $rootsz | awk '{print int(($1+$2)*1.3)}'`
-sudo dd if=/dev/zero of=$img bs=1K count=$totalsz
+sudo dd if=/dev/zero of=$img bs=1K count=$totalsz status=progress
 
 # format virtual disk
 bootstart=`sudo fdisk -l /dev/mmcblk0 | grep mmcblk0p1 | awk '{print $2}'`
