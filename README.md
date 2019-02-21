@@ -3,7 +3,7 @@
 一个帮助我们备份树莓派系统的小脚本
 ### 测试
 
-2019-02-21 Debain9 Stretch 备份至 NTFS u盘 通过
+- 2019-02-21 Debain9 Stretch 备份至 NTFS u盘 通过
 
 如果你在使用脚本中成功备份或者失败，请在issues中提出来，方便改进，谢谢
 
@@ -39,9 +39,10 @@ sh bak.sh
 help us to backup our piSD or piUSB to UsbSrotage
 
 ### TEST
-If you have any trouble with backup success or failure, please submit result in Issues to help me improve script. Thanks.
 
-2019-02-21 Debain9 Stretch backup to NTFS usb storage pass
+- 2019-02-21 Debain9 Stretch backup to NTFS usb storage pass
+
+If you have any trouble with backup success or failure, please submit result in Issues to help me improve script. Thanks.
 
 ### HOW TO USE IT
 
