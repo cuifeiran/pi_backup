@@ -7,11 +7,14 @@
 2019-02-21 Debain9 Stretch 备份至 NTFS u盘 通过
 
 ### 使用方法
-> git clone https://github.com/cuifeiran/pi_bakup.git 
+'''
+git clone https://github.com/cuifeiran/pi_bakup.git 
 
-> cp pi_bakup
+cp pi_bakup
 
-> sh bak.sh 
+sh bak.sh 
+
+'''
 
 然后请选择备份情况，1：从SD卡备份到u盘（默认为第一个u盘:/dev/sda1）2:从u盘启动的备份到另一张u盘（默认为第二个u盘:/dev/sda2）
 
