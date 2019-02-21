@@ -8,7 +8,9 @@
 
 ### 使用方法
 > git clone https://github.com/cuifeiran/pi_bakup.git 
+
 > cp pi_bakup
+
 > sh bak.sh 
 
 然后请选择备份情况，1：从SD卡备份到u盘（默认为第一个u盘:/dev/sda1）2:从u盘启动的备份到另一张u盘（默认为第二个u盘:/dev/sda2）
@@ -38,7 +40,9 @@ If you have any trouble with backup success or failure, please submit result in 
 
 ### HOW TO USE IT
 > git clone https://github.com/cuifeiran/pi_bakup.git 
+
 > cp pi_bakup
+
 > sh bak.sh 
 
 And then,choose1：backup piSD>first USB storage（Default :/dev/sda1）. if your pi system in USB storage,choose2:backup piUSB >second USB storage（Default:/dev/sda2）
