@@ -1,9 +1,9 @@
 [👉 README IN English](#pi_bakup)
 # 树莓派备份脚本
-一个帮助我们备份树莓派系统的小脚本
+一个帮助我们备份树莓派系统的小脚本，适配Ubuntu/Debian https://github.com/cuifeiran/pi_backup
 ### 测试
 
-- 2019-02-21 Debain9 Stretch 备份至 NTFS u盘 通过
+- 2019-02-21 Debian9 Stretch 备份至 NTFS u盘 通过
 
 如果你在使用脚本中成功备份或者失败，请在issues中提出来，方便改进，谢谢
 
@@ -25,6 +25,8 @@ sh bak.sh
 **备份过程一般需要20分钟以上，执行到part1时不会显示进度，请耐心等待。**
 
 ### 改动
+2019-02-21 改动：新增part1创建映像显示进度
+
 2019-02-21 改动：创建的映像大小从1.3
 
 
@@ -36,11 +38,11 @@ sh bak.sh
 
 ***
 # pi_bakup
-help us to backup our piSD or piUSB to UsbSrotage
+help us to backup our piSD or piUSB to UsbSrotage  Adaptation Ubuntu/Debian https://github.com/cuifeiran/pi_backup
 
 ### TEST
 
-- 2019-02-21 Debain9 Stretch backup to NTFS usb storage pass
+- 2019-02-21 Debian9 Stretch backup to NTFS usb storage pass
 
 If you have any trouble with backup success or failure, please submit result in Issues to help me improve script. Thanks.
 
@@ -59,6 +61,8 @@ And then,choose1：backup piSD>first USB storage（Default :/dev/sda1）. if you
 **The backup process usually takes more than 20 minutes. The progress will not be displayed when the backup process is executed to part1. Please wait patiently.**
 
 ### UPDATE
+2019-02-21 update：part1 createing img shows progress
+
 2019-02-21 change：create img size 1.3 multiple to 1.5 multiple
 
 
