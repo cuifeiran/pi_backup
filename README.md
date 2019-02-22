@@ -23,6 +23,9 @@ sh bak.sh
 *其他需求请自行修改代码*
 
 ### 注意
+
+由于备份时间过长，若使用SSH，其默认超时配置项可能导致备份中断，建议修改ssh默认超时时间或者安装screen，参考：[崔斐然的CSDN](https://blog.csdn.net/qq_33273956/article/details/87618350)
+
 备份过程一般需要20分钟以上，~~执行到part1时不会显示进度，请耐心等待。~~
 
 ### 改动
@@ -59,6 +62,8 @@ And then,choose1：backup piSD>first USB storage（Default :/dev/sda1）. if you
 
 *other demand please revise the code by yourself*
 ### NOTES
+Because backup time is too long, if SSH is used, its default timeout configuration item may cause backup interruption. It is recommended to modify the default timeout time of SSH or install screen.Reference resources:[Dave's CSDN](https://blog.csdn.net/qq_33273956/article/details/87618350)
+
 The backup process usually takes more than 20 minutes. ~~The progress will not be displayed when the backup process is executed to part1. Please wait patiently.~~
 
 
