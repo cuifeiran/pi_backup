@@ -6,7 +6,7 @@ read key
 if [ "$key" = "y" -o "$key" = "Y"]; then
 	sudo apt-get -y install rsync dosfstools parted kpartx exfat-fuse
 	echo "finshed install tools"
-if
+fi
 
 echo ===== part 1, choose backup path =====
 #mount USB device
