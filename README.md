@@ -35,7 +35,7 @@ sh bak.sh
 
 
 ### 参考： 
->[conanwhf/RaspberryPi-script](https://github.com/cuifeiran/RaspberryPi-script/blob/master/rpi-backup.sh)
+>[conanwhf/RaspberryPi-script](https://github.com/conanwhf/RaspberryPi-script)
 
  - 感谢前辈付出！(没有forked的原因是这个脚本可能被我改糟，不想污染master所以新建了一个仓。)
 
@@ -74,6 +74,6 @@ The backup process usually takes more than 20 minutes. ~~The progress will not b
 
 
 ### REFERENCE RESOURCES： 
->[conanwhf/RaspberryPi-script](https://github.com/cuifeiran/RaspberryPi-script/blob/master/rpi-backup.sh)
+>[conanwhf/RaspberryPi-script](https://github.com/conanwhf/RaspberryPi-script)
 
   - Thank your predecessors for giving! (The reason why there is no forked is that the script may have been worsened by me. I didn't want to pollute the master, so I built a new warehouse. )
