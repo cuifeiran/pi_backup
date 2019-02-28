@@ -14,7 +14,7 @@ usbmount=/mnt
 mkdir -p $usbmount
 df -P
 if [ -z $1 ]; then
-	echo "(1):Back up system to /dev/sda1 \n (2):Back up system to /dev/sda2 "
+	echo "choose(1):Back up system to /dev/sda1 \n choose(2):Back up system to /dev/sda2 "
 	read key
 	if [ "$key" = "1"]; then
 		sudo mount -o uid=1000 /dev/sda1 $usbmount
